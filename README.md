@@ -11,6 +11,15 @@ It is super simple to use.
 ```javascript 
 var m3u8downloader = require('m3u8downloader');
 
-m3u8downloader.download("http://www.nacentapps.com/m3u8/index.m3u8","destination");
+m3u8downloader.download("http://www.nacentapps.com/m3u8/index.m3u8",
+                        "destination2",
+                       function(data,err)
+                       {
+                           if(err)
+                               console.log(err);
+                           else
+                               console.log(data);
+
+                       });
 ``` 
 
