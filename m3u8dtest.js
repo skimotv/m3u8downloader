@@ -1,4 +1,4 @@
-var m3u8downloader = require('m3u8downloader');
+var m3u8downloader = require('./lib/m3u8downloader.js');
 var downloader = new m3u8downloader("http://www.nacentapps.com/m3u8/index.m3u8", "destination",
 function(data,err)
 {
