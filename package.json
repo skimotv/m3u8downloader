@@ -6,7 +6,7 @@
   "main": "./lib/m3u8downloader.js",
   "dependencies": {
     "async": "^0.9.0",
-    "request": "2.51.1"
+    "request":"^2.51.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,7 +23,7 @@
     "Apple"
   ],
   "author": "Skimo TV Inc.,",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/skimotv/m3u8downloader/issues"
   },
