@@ -2,11 +2,30 @@
   "name": "m3u8downloader",
   "description": "Downloads a m3u8 playlist into a specified local directory, with all its media segments",
   "version": "0.2.0",
-  "private": true,
+  "private": false,
   "main": "./lib/m3u8downloader.js",
-  "dependencies": 
-  {
+  "dependencies": {
     "async": "^0.9.0",
     "request": "2.51.1"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skimotv/m3u8downloader.git"
+  },
+  "keywords": [
+    "m3u8downloader",
+    "HLS",
+    "hls",
+    "MBR",
+    "Apple"
+  ],
+  "author": "Skimo TV Inc.,",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skimotv/m3u8downloader/issues"
+  },
+  "homepage": "https://github.com/skimotv/m3u8downloader"
 }
