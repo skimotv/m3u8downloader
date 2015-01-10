@@ -11,12 +11,12 @@ It is super simple to use.
 ```javascript 
 var m3u8downloader = require('m3u8downloader');
 var downloader = new m3u8downloader("http://www.nacentapps.com/m3u8/index.m3u8", "destination",
-function(data,err)
+function(err, data)
 {
     if(err)
         console.log(err);
     else
-        console.log(data);
+        console.dir(data)
 });
 
 downloader.on('start', function()
@@ -33,6 +33,12 @@ downloader.on('progress', function(d)
 downloader.on('downloaded', function(d)
 {
     console.log(d);
+});
+
+
+downloader.on('complete', function(d) 
+{
+    console.log('done');
 });
 ``` 
 
