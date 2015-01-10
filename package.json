@@ -1,7 +1,7 @@
 {
   "name": "m3u8downloader",
   "description": "Downloads a m3u8 playlist into a specified local directory, with all its media segments",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "private": false,
   "main": "./lib/m3u8downloader.js",
   "dependencies": {
