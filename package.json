@@ -1,12 +1,13 @@
 {
   "name": "m3u8downloader",
   "description": "Downloads a m3u8 playlist into a specified local directory, with all its media segments",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "private": false,
   "main": "./lib/m3u8downloader.js",
   "dependencies": {
     "async": "^0.9.0",
-    "request":"^2.51.0"
+    "request":"^2.51.0",
+    "mkdirp":"latest"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
